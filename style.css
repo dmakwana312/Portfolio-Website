@@ -11,10 +11,6 @@ body {
     scroll-behavior: smooth;
 }
 
-.container {
-    height: 100%;
-}
-
 
 /* Navbar */
 
@@ -27,7 +23,7 @@ body {
 }
 
 .navbar-custom {
-    background: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0));
 }
 
 .navbar-brand img {
@@ -70,7 +66,7 @@ body {
     height: 100%;
     background-size: cover;
     background-position: bottom;
-    background-image: url("img/landing-bg-img.jpg");
+    background-image: url("img/home-bg-img.jpg");
     box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
 }
 
