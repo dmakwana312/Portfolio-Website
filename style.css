@@ -11,6 +11,10 @@ body {
     scroll-behavior: smooth;
 }
 
+.container {
+    height: 100%;
+}
+
 
 /* Navbar */
 
@@ -23,7 +27,7 @@ body {
 }
 
 .navbar-custom {
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0));
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .navbar-brand img {
@@ -105,4 +109,17 @@ body {
 .caption a {
     letter-spacing: .15rem;
     font-weight: 100;
+}
+
+
+/* About Page */
+
+.about-overview {
+    background-color: rgba(124, 124, 124, 0.8);
+    display: inline-block;
+}
+
+.about-expansion {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
 }
