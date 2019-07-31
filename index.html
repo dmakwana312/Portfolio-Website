@@ -6,10 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Custom Styling -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Portfolio</title>
 
@@ -58,26 +61,36 @@
             <div class="caption text-center">
                 <h1>Lorem Ipsum</h1>
                 <h3>Lorem Ipsum</h3>
-                <a class="btn btn-outline-light btn-lg" href=# about>View My Work</a>
+                <a class="btn btn-outline-light btn-lg" href=#about about>View My Work</a>
             </div>
 
         </div>
     </div>
 
     <!-- About Section -->
-    <div id="about" class="section">
+    <div id="about" class="section double-height">
 
 
 
         <div class="about-inner ">
             <div class="container h-100 text-center">
                 <div class="row h-100 justify-content-center align-items-center">
-                    <div class="col-md-3 about-overview ">
-                        <p>3 Col</p>
+
+                    <div class="col-md-4 about-overview vertical-center">
+                        <img class="display-img" src="/img/display-img.png" alt="Display Picture"></img>
+
+                        <h3 class="header">Dipesh Makwana</h3>
+
+                        <div class="links">
+                            <a href="#"><i class="fab fa-linkedin-in" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
+                            </a>
+                            <a href="#"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="GitHub"></i></a>
+
+                        </div>
 
                     </div>
-                    <div class="col-md-9 about-expansion ">
-                        <p>9 Col</p>
+                    <div class="col-md-8 about-expansion ">
+
                     </div>
                 </div>
             </div>
@@ -120,6 +133,9 @@
 
     <!-- Scroll Spy Activator -->
     <script src="scripts/js/scrollSpy-Activator.js"></script>
+
+    <!-- Tool Tips Initialisation -->
+    <script src="scripts/js/toolTips-Initialisation.js"></script>
 
 </body>
 
