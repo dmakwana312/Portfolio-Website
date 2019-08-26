@@ -9,6 +9,9 @@
     <!-- Font Awesome CSS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+    <!--  Dev Icon CSS-->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -16,6 +19,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Portfolio</title>
 
+    <!-- Favicon Logo-->
+    <link rel="icon" href="img/favicon-logo.png">
 
 
 </head>
@@ -34,7 +39,7 @@
                 <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
@@ -47,56 +52,80 @@
 
 </nav>
 
+
+
 <body class="section-wrap">
 
 
 
-
-
-    <!-- Home Section -->
-    <div id="home" class="section">
-
-
-        <div class="home-inner">
-            <div class="caption text-center">
-                <h1>Lorem Ipsum</h1>
-                <h3>Lorem Ipsum</h3>
-                <a class="btn btn-outline-light btn-lg" href=#about about>View My Work</a>
-            </div>
-
-        </div>
-    </div>
-
     <!-- About Section -->
-    <div id="about" class="section double-height">
-
-
+    <div id="about" class="section">
 
         <div class="about-inner ">
-            <div class="container h-100 text-center">
-                <div class="row h-100 justify-content-center align-items-center">
+            <div class="container d-flex h-100 ">
 
-                    <div class="col-md-4 about-overview vertical-center">
+                <div class="row justify-content-center align-self-center">
+                    <div class="col-md-12 about-heading about-inner-background text-md-left">
+                        <h2>About <span>Me</span></h2>
+                    </div>
+
+                    <div class="col-md-3 about-img about-inner-background">
                         <img class="display-img" src="/img/display-img.png" alt="Display Picture"></img>
+                    </div>
 
-                        <h3 class="header">Dipesh Makwana</h3>
+                    <div class="col-md-9 about-bio about-inner-background">
 
-                        <div class="links">
-                            <a href="#"><i class="fab fa-linkedin-in" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
-                            </a>
-                            <a href="#"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="GitHub"></i></a>
+                        <div class="about-bio-content text-md-left">
+                            <h5>[Bio]</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, nostrum obcaecati? Illo eum neque quidem natus? Ullam cum iure dicta, dolor maxime officia expedita minima quas beatae molestiae? Dignissimos, ex. Lorem ipsum dolor
+                                sit amet consectetur adipisicing elit. Ullam non distinctio quam odit, perspiciatis id a consequuntur doloribus voluptatum amet. Nisi minus tempore doloremque illum voluptate excepturi ut sint distinctio?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-12 about-skills-title about-inner-background text-md-center">
+                        <h5>[Skills]</h5>
+
+                    </div>
+
+                    <div class="col-md-12 about-skills about-inner-background">
+
+                        <div class="about-skills-content text-md-center">
+
+                            <div class="skills-list">
+                                <div class="languages">
+                                    <i class="devicon-java-plain" data-toggle="tooltip" data-placement="top" title="Java"></i>
+                                    <i class="vb" data-toggle="tooltip" data-placement="top" title="Visual Basic">VB</i>
+                                    <i class="devicon-python-plain" data-toggle="tooltip" data-placement="top" title="Python"></i>
+                                    <i class="devicon-mysql-plain" data-toggle="tooltip" data-placement="top" title="MySQL"></i>
+
+                                </div>
+                                <div class="webdev">
+                                    <i class="devicon devicon-bootstrap-plain" data-toggle="tooltip" data-placement="top" title="Bootstrap"></i>
+                                    <i class="devicon-html5-plain" data-toggle="tooltip" data-placement="top" title="HTML5"></i>
+                                    <i class="devicon-css3-plain" data-toggle="tooltip" data-placement="top" title="CSS"></i>
+                                    <i class="devicon-javascript-plain" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>
+                                </div>
+                                <div class="vcs">
+                                    <i class="devicon-git-plain" data-toggle="tooltip" data-placement="top" title="Git"></i>
+                                    <i class="devicon-github-plain" data-toggle="tooltip" data-placement="top" title="GitHub"></i>
+                                </div>
+
+
+
+
+                            </div>
 
                         </div>
 
                     </div>
-                    <div class="col-md-8 about-expansion ">
 
-                    </div>
+
                 </div>
             </div>
+
+
         </div>
-
-
     </div>
 
     <!-- Projects Section -->
@@ -117,13 +146,15 @@
 
         <div class="contact-inner">
             <p>test</p>
+            <!-- <div class="links">
+                            <a href="#"><i class="fab fa-linkedin-in" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
+                            </a>
+                            <a href="#"><i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="GitHub"></i></a>
+
+                        </div> -->
         </div>
 
-
-
     </div>
-
-
 
 
     <!-- jQuery/Popper.js/Bootstrap JS -->

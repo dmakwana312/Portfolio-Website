@@ -22,6 +22,7 @@ body {
 
 .navbar-custom {
     background: rgba(0, 0, 0, 1);
+    border-bottom: 0.01rem solid #fcec11;
 }
 
 .navbar-brand img {
@@ -42,12 +43,14 @@ body {
     color: #fcec11;
 }
 
-.section-wrap {
-    height: 100vh;
+.section.home {
+    height: 100%;
 }
 
-.section {
-    height: 100%;
+@media (min-width: 768px) {
+    .section {
+        height: 100%;
+    }
 }
 
 
@@ -56,8 +59,7 @@ body {
 .home-inner {
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: bottom;
+    background-size: 100%;
     background-image: url("img/home-bg-img.jpg");
     box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
 }
@@ -65,8 +67,7 @@ body {
 .about-inner {
     width: 100%;
     height: 100%;
-    background-size: cover;
-    background-position: bottom;
+    background-size: 100%;
     background-image: url("img/about-bg-img.jpg");
 }
 
@@ -101,48 +102,132 @@ body {
 
 /* About Page */
 
-
-
-.about-overview {
-    background-color: rgba(0, 0, 0, 0.8);
+.about-heading h2 {
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+    padding-bottom: -0.8rem;
+    font-size: 3rem;
 }
 
-.about-expansion {
-    background-color: rgba(255, 255, 255, 0.5);
+.about-bio {
+    color: #ffffff;
 }
 
-.about-overview .display-img {
-    margin-top: 3rem;
+@media (max-width: 767px) {
+    .about-inner {
+        text-align: center;
+    }
+    .about-img .display-img {
+        width: 15rem;
+    }
+}
+
+.about-img .display-img {
     border-radius: 50%;
     border-style: solid;
     border-inline-start-color: #fcec11;
     border-inline-end-color: #fcec11;
+    border-block-start-color: rgba(0, 0, 0, 0);
+    border-block-end-color: rgba(0, 0, 0, 0);
     /* border-color: #fcec11; */
-    height: 15rem;
+    width: 13rem;
+    max-width: 10rem;
 }
 
-.about-overview .header {
-    margin-top: 2rem;
-    font-size: 26px;
-    font-weight: 405;
-    color: #fcec11;
-    letter-spacing: 0.05rem;
+.about-img {
+    padding: 1rem;
+    padding-right: 0rem!important;
+    padding-bottom: 2rem;
+    display: flex;
 }
 
-.about-overview .links {
+.display-img {
+    margin: auto;
+}
+
+.about-inner-background {
+    background-color: #3f3f3f;
+}
+
+
+/* FONT AWESOME STYLING */
+
+
+/* .about-overview .links {
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
 .links a+a {
     margin-left: 20px;
-}
+} 
 
 
-/* Font Awesome*/
+
 
 .fab {
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
     color: #fcec11;
+} */
+
+h2 {
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+}
+
+h2 span {
+    color: #fcec11;
+}
+
+.about-bio {
+    display: flex;
+}
+
+.about-bio-content,
+.about-skills-content {
+    padding-left: 0.8rem;
+    padding-top: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.about-skills {
+    display: flex;
+}
+
+.about-inner h5 {
+    font-size: 24px;
+    font-weight: 425;
+    letter-spacing: 0.15rem;
+    color: #fcec11;
+}
+
+.about-bio p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: inherit;
+    letter-spacing: 0.15rem;
+}
+
+.about-skills-content .skills-list i {
+    font-size: 4rem;
+    color: white;
+    font-style: normal;
+}
+
+i .vb {
+    font-weight: 500;
+    padding: 0;
+}
+
+i+i {
+    padding-left: 2rem;
+}
+
+.webdev {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
