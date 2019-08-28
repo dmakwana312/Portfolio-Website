@@ -56,10 +56,11 @@ body {
 
 /*Backgrounds*/
 
-.home-inner {
+.home-inner,
+.contact-inner {
     width: 100%;
     height: 100%;
-    background-size: 100%;
+    background-size: cover;
     background-image: url("img/home-bg-img.jpg");
     box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
 }
@@ -145,31 +146,10 @@ body {
     margin: auto;
 }
 
-.about-inner-background {
+.about-inner-background,
+.contact-inner-background {
     background-color: #3f3f3f;
 }
-
-
-/* FONT AWESOME STYLING */
-
-
-/* .about-overview .links {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-}
-
-.links a+a {
-    margin-left: 20px;
-} 
-
-
-
-
-.fab {
-    display: inline-block;
-    font-size: 30px;
-    color: #fcec11;
-} */
 
 h2 {
     letter-spacing: 0.1rem;
@@ -207,9 +187,10 @@ h2 span {
 
 .about-bio p {
     text-align: justify;
+    font-size: 1rem;
     font-weight: 400;
-    font-size: inherit;
     letter-spacing: 0.15rem;
+    padding-right: 0.8rem;
 }
 
 .about-skills-content .skills-list i {
@@ -224,10 +205,75 @@ i .vb {
 }
 
 i+i {
-    padding-left: 2rem;
+    margin-left: 2rem;
 }
 
 .webdev {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+
+/* Contact Page */
+
+.contact-heading h2 {
+    padding-top: 0.8rem;
+    padding-left: 0.8rem;
+    padding-bottom: -0.8rem;
+    font-size: 3rem;
+}
+
+.contact-text p {
+    font-weight: 400;
+    font-size: inherit;
+    letter-spacing: 0.15rem;
+    padding-left: 0.8rem;
+    padding-top: 0.8rem;
+}
+
+.contact-links p {
+    font-weight: 400;
+    /* font-size: 1.1rem; */
+    font-size: inherit;
+    letter-spacing: 0.15rem;
+    padding-left: 0.8rem;
+}
+
+.contact-links p i {
+    padding-right: 0.5rem;
+}
+
+.contact-links p a {
+    color: #ffffff;
+    /* text-decoration: none; */
+}
+
+.contact-links p a:hover {
+    color: #fcec11;
+}
+
+.contact-inner .row {
+    color: #ffffff;
+}
+
+
+/* FONT AWESOME STYLING */
+
+
+/* .about-overview .links {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.links a+a {
+    margin-left: 20px;
+} 
+
+
+
+
+.fab {
+    display: inline-block;
+    font-size: 30px;
+    color: #fcec11;
+} */
