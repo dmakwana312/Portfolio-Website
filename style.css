@@ -57,6 +57,13 @@ body {
     .section+.section {
         border-bottom: 5px solid #fcec11;
     }
+    .vcs {
+        padding-bottom: 0.8rem;
+    }
+    .projects-heading,
+    .contact-heading {
+        padding-top: 0.8rem;
+    }
 }
 
 
@@ -92,6 +99,10 @@ body {
 
 
 /* Home Page */
+
+.home-inner .btn {
+    font-size: calc(0.9vw + 0.5vh + 2vmin);
+}
 
 .caption {
     white-space: nowrap;
@@ -293,9 +304,6 @@ i+i {
     display: inline-block;
     border: 0;
     border-radius: 0%;
-}
-
-.btn-dark {
     background-color: black;
 }
 
