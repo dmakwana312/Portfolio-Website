@@ -57,7 +57,7 @@
         width: 100%;
         height: 100%;
         background-size: cover;
-        background-image: url("img/home-bg-img.jpg");
+        background-image: url("img/bg-img/home-bg-img.jpg");
         box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
     }
     
@@ -69,14 +69,14 @@
         width: 100%;
         height: 100%;
         background-size: cover;
-        background-image: url("img/about-bg-img.jpg");
+        background-image: url("img/bg-img/about-bg-img.jpg");
     }
     
     .projects-inner {
         width: 100%;
         height: 100%;
         background-size: cover;
-        background-image: url("img/projects-bg-img.jpg");
+        background-image: url("img/bg-img/projects-bg-img.jpg");
         box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
     }
     
