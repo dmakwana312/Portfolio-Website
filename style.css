@@ -162,7 +162,6 @@ body {
     border-inline-end-color: #fcec11;
     border-block-start-color: rgba(0, 0, 0, 0);
     border-block-end-color: rgba(0, 0, 0, 0);
-    /* border-color: #fcec11; */
     width: 13rem;
     max-width: 10rem;
 }
@@ -202,7 +201,6 @@ h2 span {
     padding-right: 0.8rem;
     padding-bottom: 0.8rem;
     margin: auto;
-    /* text-align: center; */
 }
 
 .about-skills {
@@ -337,7 +335,6 @@ i+i {
 
 .contact-links p {
     font-weight: 400;
-    /* font-size: 1.1rem; */
     font-size: inherit;
     letter-spacing: 0.15rem;
     padding-left: 0.8rem;
@@ -350,14 +347,12 @@ i+i {
 .contact-links p a {
     color: #ffffff;
     font-size: 1rem;
-    /* text-decoration: none; */
 }
 
 @media (max-width: 767px) {
     .contact-links p a {
         color: #ffffff;
         font-size: calc(0.9vw + 0.5vh + 2vmin);
-        /* text-decoration: none; */
     }
 }
 
