@@ -1,0 +1,20 @@
+<projectsCatalogue>
+    <project id = "1">
+        <id>1</id>
+        <title>Stock Market Simulator</title>
+        <image>stock-sim-img</image>
+        <github>https://github.com/dmakwana312/Stock-Market-Simulator</github>
+    </project>
+    <project id = "2">
+        <id>2</id>
+        <title>Car Rental System</title>
+        <image>rental-img</image>
+        <github>https://github.com/dmakwana312/Car-Rental-System</github>
+    </project>
+    <project id = "3">
+        <id>3</id>
+        <title>Blog Website</title>
+        <image>blog-img</image>
+        <github>https://github.com/dmakwana312/Blog-Website</github>
+    </project>
+</projectsCatalogue>
