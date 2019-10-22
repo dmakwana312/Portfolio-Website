@@ -306,8 +306,9 @@ i+i {
 
 .project-info img {
     border: 2px #ffffff solid;
-    height: 170px;
-    width: 100%
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
 }
 
 .btn-dark {
