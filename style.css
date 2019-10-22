@@ -377,3 +377,10 @@ i+i {
 .contact-inner .row {
     color: #ffffff;
 }
+
+@media (max-width: 767px) {
+    .about-heading,
+    .projects-heading {
+        margin-top: 50px;
+    }
+}
