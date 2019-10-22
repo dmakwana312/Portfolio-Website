@@ -8,6 +8,7 @@ body {
     font-family: 'Rubik', sans-serif;
     height: 100%;
     scroll-behavior: smooth;
+    background-color: #3f3f3f;
 }
 
 
@@ -69,6 +70,33 @@ body {
 
 /*Backgrounds*/
 
+@media (min-width: 767px) {
+    .home-inner,
+    .contact-inner {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("img/bg-img/home-bg-img.jpg");
+        box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
+    }
+    .home-inner {
+        background-position: bottom;
+    }
+    .about-inner {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("img/bg-img/about-bg-img.jpg");
+    }
+    .projects-inner {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url("img/bg-img/projects-bg-img.jpg");
+        box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
+    }
+}
+
 .home-inner,
 .contact-inner {
     width: 100%;
@@ -80,21 +108,6 @@ body {
 
 .home-inner {
     background-position: bottom;
-}
-
-.about-inner {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("img/bg-img/about-bg-img.jpg");
-}
-
-.projects-inner {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url("img/bg-img/projects-bg-img.jpg");
-    box-shadow: 0 3000px rgba(0, 0, 0, 0.5) inset;
 }
 
 
