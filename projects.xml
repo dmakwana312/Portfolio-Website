@@ -17,4 +17,10 @@
         <image>blog-img</image>
         <github>https://github.com/dmakwana312/Blog-Website</github>
     </project>
+    <project id = "4">
+        <id>4</id>
+        <title>Sudoku Solver</title>
+        <image>sudoku-solver</image>
+        <github>https://github.com/dmakwana312/Sudoku-Solver</github>
+    </project>
 </projectsCatalogue>
