@@ -55,10 +55,11 @@ body {
     }
 }
 
+.section {
+    border-bottom: 5px solid #fcec11;
+}
+
 @media (max-width: 767px) {
-    .section+.section {
-        border-bottom: 5px solid #fcec11;
-    }
     .vcs {
         padding-bottom: 0.8rem;
     }
