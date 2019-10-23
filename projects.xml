@@ -12,7 +12,7 @@
         <about>
         <![CDATA[
             This is a project that I worked on whilst at university which formed part of my assignment for my Object Oriented Programming module.
-            <br/><br/> It essentially simulates the increases and decreases in the stock market where the user is able to both buy and sell stocks. The user also has the option of viewing a graph, which provides a visual representation of the price changes for a particular stock. This funcion was implemented through the use of two Java class libraries; JCommon and JFreeChart. Both can be found in the External JAR folder.
+            <br/><br/>It essentially simulates the increases and decreases in the stock market where the user is able to both buy and sell stocks. The user also has the option of viewing a graph, which provides a visual representation of the price changes for a particular stock. This function was implemented through the use of two Java class libraries; JCommon and JFreeChart.
             <br/><br/>An incremental style of development was used, where more and more features were added based on a given timeline.
         ]]>
         </about>
@@ -32,9 +32,9 @@
         </tools>
         <about>
         <![CDATA[
-            The Car Rental System was group project that was completed for the Event Driven Programming unit, during my second year at college.
-            <br/><br/> It is a car rental system that is designed to be used by an employee of Joe's Car Rentals (fictional).
-            <br/><br/>Based on given requirements, myself and a colleague designed, implemented, tested and evaluated the program using the Waterfall development methodology. The program is implemented through the use of Visual Basic, as well as some SQL querys in order to have interaction with a database. The database had the role of storing the details of vehicles on offer as well customer information (due to time constraints, the number was vehicles and existing customers pre-loaded had to be limited).
+            The Car Rental System was a group project that was completed for the Event Driven Programming unit, during my second year at college.
+            <br/><br/>It is a car rental system that is designed to be used by an employee of Joe's Car Rentals (fictional).
+            <br/><br/>Based on given requirements, myself and a colleague designed, implemented, tested and evaluated the program using the Waterfall development methodology. The program is implemented through the use of Visual Basic, as well as some SQL queries in order to have interaction with a database. The database had the role of storing the details of vehicles on offer as well as customer information (due to time constraints, the number was vehicles and existing customers pre-loaded had to be limited).
         ]]>
         </about>
         <github>https://github.com/dmakwana312/Car-Rental-System</github>
@@ -51,8 +51,8 @@
         </tools>
         <about>
         <![CDATA[
-            The Sudoku Solver is a personal project of mine. Whilst researching algorithms to solve Sudoku's, I decided to implement one using Python. This would also allow me to complete my first personal projoect in said language.
-            <br/><br/>The algorithm which I decided on using was the Backtracking algorithm. The idea behind this algorithm is that the program will attempt to solve the program row by row by inserting digits that are valid at that time. If it gets to a point where there are no valid options, it will make a change in the previous insertion so that a valid solution can be found.
+            The Sudoku Solver is a personal project of mine. Whilst researching algorithms to solve Sudoku's, I decided to implement one using Python. This would also allow me to complete my first personal project in said language.
+            <br/><br/>The algorithm which I decided on using was the Backtracking algorithm. The idea behind this algorithm is that the program will attempt to solve the puzzle row by row by inserting digits that are valid at that time. If it gets to a point where there are no valid options, it will make a change in the previous insertion so that a valid solution can be found.
             <br/><br/>More information about this algorithm can be found <a href = "https://en.wikipedia.org/wiki/Backtracking" target="_blank">here</a>.
         ]]>
         </about>
