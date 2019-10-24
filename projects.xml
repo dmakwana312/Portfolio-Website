@@ -16,6 +16,7 @@
             <br/><br/>An incremental style of development was used, where more and more features were added based on a given timeline.
         ]]>
         </about>
+        <video>https://www.youtube.com/embed/LotmndwDzAg</video>
         <github>https://github.com/dmakwana312/Stock-Market-Simulator</github>
     </project>
     <project id = "2">
@@ -37,6 +38,7 @@
             <br/><br/>Based on given requirements, myself and a colleague designed, implemented, tested and evaluated the program using the Waterfall development methodology. The program is implemented through the use of Visual Basic, as well as some SQL queries in order to have interaction with a database. The database had the role of storing the details of vehicles on offer as well as customer information (due to time constraints, the number was vehicles and existing customers pre-loaded had to be limited).
         ]]>
         </about>
+        <video>https://www.youtube.com/embed/5MBEYgGW2Do</video>
         <github>https://github.com/dmakwana312/Car-Rental-System</github>
     </project>
     <project id = "3">
@@ -56,6 +58,7 @@
             <br/><br/>More information about this algorithm can be found <a href = "https://en.wikipedia.org/wiki/Backtracking" target="_blank">here</a>.
         ]]>
         </about>
+        <video>https://www.youtube.com/embed/8PGJOyLG0zA</video>
         <github>https://github.com/dmakwana312/Sudoku-Solver</github>
     </project>
 

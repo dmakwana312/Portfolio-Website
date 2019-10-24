@@ -36,7 +36,7 @@ function showProjects() {
                 contentAdded = true;
                 var xml = $(this);
                 document.getElementById('project-title').innerHTML += '<h2>' + xml.find('title').text() + '</h2>';
-                document.getElementById('project-img').innerHTML += '<img class="center" src="img/project-img/' + xml.find('image').text() + '.png">'
+                document.getElementById('project-video').innerHTML += '<iframe width="420" height="315" src="' + xml.find('video').text() + '"></iframe>'
                 document.getElementById('more-info').innerHTML += '<p>' + xml.find('about').text() + '</p>';
 
 
