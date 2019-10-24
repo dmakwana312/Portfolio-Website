@@ -2,7 +2,7 @@
     <project id = "1">
         <id>1</id>
         <title>Stock Market Simulator</title>
-        <image>stock-sim-img</image>
+        <image>java</image>
         <tools>
         <![CDATA[
             <p><i class="far fa-check-circle"></i>Netbeans</p>
@@ -22,7 +22,7 @@
     <project id = "2">
         <id>2</id>
         <title>Car Rental System</title>
-        <image>rental-img</image>
+        <image>visual-basic</image>
         <tools>
         <![CDATA[
             <p><i class="far fa-check-circle"></i>Visual Stuio</p>
@@ -44,7 +44,7 @@
     <project id = "3">
         <id>3</id>
         <title>Sudoku Solver</title>
-        <image>sudoku-solver</image>
+        <image>python</image>
         <tools>
         <![CDATA[
             <p><i class="far fa-check-circle"></i>Visual Stuio Code</p>
