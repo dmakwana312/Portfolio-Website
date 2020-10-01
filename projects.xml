@@ -61,6 +61,27 @@
         <video>https://www.youtube.com/embed/8PGJOyLG0zA</video>
         <github>https://github.com/dmakwana312/Sudoku-Solver</github>
     </project>
+    <project id = "4">
+        <id>4</id>
+        <title>Who Wants To Be A Millionaire</title>
+        <image>c-sharp</image>
+        <tools>
+        <![CDATA[
+            <p><i class="far fa-check-circle"></i>Visual Stuio 2019</p>
+            <p><i class="far fa-check-circle"></i>C#</p>
+            <p><i class="far fa-check-circle"></i>Python</p>
+            <p><i class="far fa-check-circle"></i>SQLite</p>            
+        ]]>
+        </tools>
+        <about>
+        <![CDATA[
+            Who Wants To Be A Millionaire is a personal project that I completed primarily to learn C#. The lifelines that have been implemented for the player to use are "50/50", "Swap The Question" and "Audience Poll"
+            <br/><br/>Potential improvements for this application is to add a highscore system, allow players to save the game and resume at another time and also to allow players to add there own questions.
+        ]]>
+        </about>
+        <video>https://www.youtube.com/embed/DD8I2dk029I</video>
+        <github>https://github.com/dmakwana312/Who-Wants-To-Be-A-Millionaire</github>
+    </project>
 
 
     
