@@ -283,7 +283,18 @@ i+i {
     }
 }
 
+#projects {
+    height: unset;
+    
+}
+
+.projects-inner {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
 .projects-inner .row {
+
     color: #ffffff;
 }
 
